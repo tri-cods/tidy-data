@@ -1,23 +1,13 @@
-# Guide to the Curriculum
+# Tidy Data
 
-This repository contains information for using and contributing to the Digital Humanities Research Institute curriculum. 
+In order to begin thinking about digital methods, scholars must first make the conceptual leap toward thinking about their research as data. How do we get at the data in our research and how do we make it useful and usable by machines? What are some of the promises (and perils) of reframing research as data? By the end of the session, we’ll be introduced to strategies and tools for taking very different kinds of information and creating well-formed data, data that can then be used for analysis or visualization.
 
-In this repository, you will learn:
-
-- How to use Git and GitHub to "fork" curriculum modules to your own account.
-- How to create issues in curriculum modules.
-- How to make pull requests to contribute "upstream"—back to the curriculum.
-- How to write modules consistent with the DHRI style guide.
+[Get Started >>>](sections/concept.md)  
+[Glossary >>>](https://github.com/tri-cods/glossary) 
 
 -----
 
-[Contributing to the curriculum](sections/contributing.md)  
-[Style guide](sections/style-guide.md)  
-[Checklist for creating new sessions](sections/checklist.md)  
-
------
-
-Written by Patrick Smyth.
+Session Leader: Nabil Kashyap
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
