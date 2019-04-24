@@ -2,8 +2,31 @@
 
 In order to begin thinking about digital methods, scholars must first make the conceptual leap toward thinking about their research as data. How do we get at the data in our research and how do we make it useful and usable by machines? What are some of the promises (and perils) of reframing research as data? By the end of the session, we’ll be introduced to strategies and tools for taking very different kinds of information and creating well-formed data, data that can then be used for analysis or visualization.
 
+
 [Get Started >>>](sections/concept.md)  
 [Glossary >>>](https://github.com/tri-cods/glossary) 
+
+-----
+
+- Installing OpenRefine
+- What is OpenRefine?
+- What is Data?
+    - Where is your data?
+    - Data types
+    - Data structures
+    - Data modeling and representation
+- Importing Data
+- Remove blank rows
+- Split multi-value cells
+- Reconciling
+- De-duplicating
+- Faceting
+- Transformations
+- Exported
+- Advanced Uses
+- Further Resources
+    - Videos
+    - Tutorials
 
 -----
 
