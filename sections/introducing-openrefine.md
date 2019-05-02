@@ -6,7 +6,7 @@ OpenRefine is cross-platform, open-source software that allows users to clean an
 
 It allows users to bring in messy data easily without requiring preliminary transformation. It allows for granular auditing of any changes, which makes provenance much simpler. It combines (relatively) easy to use suite of features with the ability to write custom scripts when needed.
 
-A couple things to note about OpenRefine: The software was originally written for the web so it runs in the browser rather than its own window. Rather than opening and saving files, it imports data into a "project" from which we can export versions.
+A couple things to note about OpenRefine: The software was originally written for the web so it runs in the browser rather than its own window. Rather than opening and saving files, it imports data into a "project" from which we can export versions of data suited to our needs.
 
 If you haven't yet, be sure to download OpenRefine according to the instructions on the installations page.
 

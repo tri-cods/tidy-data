@@ -13,21 +13,10 @@ In this session, we will:
 - export subsets in different formats
 
 [Get Started >>>](sections/working-with-data.md)
+
 [Glossary >>>](https://github.com/tri-cods/glossary) 
 
 ----- 
-
-- Remove blank rows
-- Split multi-value cells
-- Reconciling
-- De-duplicating
-- Faceting
-- Transformations
-- Exported
-- Advanced Uses
-- Further Resources
-    - Videos
-    - Tutorials
 
 ## Resources
 
