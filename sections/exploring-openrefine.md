@@ -2,23 +2,21 @@
 
 # Exploring an OpenRefine project
 
-Take a moment to explore our new project. What do you notice? There are many many features, but let's start with three: sorting, filtering, and faceting.
+Take a moment to explore our new project. What do you notice? There are many many features, but let's start with three: *sorting*, *filtering*, and *faceting*.
 
-### Sort
+### Sorting
 
 Select the caret to the left of the **Name** column and select sort. This is a useful way of exploring data but does not permanently rearrange the data.
 
-In order to reorder the data permanently, notice the new **Sort** option that appears in the top bar.
+In order to reorder the data permanently, notice the new **Sort** option that appears in the top bar. Selecting the caret beside the new **Sort** option gives you the option to permanently apply a new order to the underlying data.
 
-Selecting the caret beside the new **Sort** option gives you the option to permanently apply a new order to the underlying data.
-
-### Filter
+### Filtering
 
 For the column labeled **Occupation of females compensation**, select **Text filter**. In the menu in the sidebar, enter an occupation.
 
 In how many residences are there recorded female washers? How many males are employed as washers?
 
-### Facet
+### Faceting
 
 For the column labeled **Rent of house**, let's filter the census data based on how much rent tenants were paying.
 

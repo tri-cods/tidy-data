@@ -8,4 +8,6 @@ Example observations.
 
 How might we turn this dataset into tidy data? How might you apply these concepts to your own research?
 
+Describe auditing changes to the data in the Undo/Redo sidebar.
+
 [<<< Previous](transforming-columns.md)

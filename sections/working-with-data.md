@@ -14,9 +14,9 @@
 
 It would take a long long long time to unpack such a question, so we will skip to a more salient pair of concerns: How to think of our own research in terms of structured data? How would we go about nudging our archives/notes/digital images/PDFs into forms that would enable computer analysis or visualization?
 
-Even in a short tutorial, it's worth noting that data always comprises a slippery set of concepts, processes, technologies, and products. While Daniel Rosenberg in the above quote is most concerned with etymology, we invite you to consider how even "mechanical" processes like creating and cleaning data are rhetorical, are already engaging in argument -- before we even get to visualization or interpretation, the stages that usually get credit for revealing the story embedded in the data.
+Data always comprises a slippery set of concepts, processes, technologies, and products. In light of Daniel Rosenberg's comment above on the etymology of "data", consider how even "mechanical" processes like creating and cleaning data are rhetorical, are already engaging in argument -- before we even get to visualization or interpretation we are already engaged in issues of representation and modeling the world, opening up possibilities while precluding others.
 
-In lieu of definition, a couple of rough rules-of-thumb: By and large, the data (or rather, datasets) we create or find in the wild will be either tabular (think spreadsheet) or graph data (think tree hierarchy or network). However complicated or simple, datasets consist of values that correspond to predetermined variables. These variables, in turn, can be described as either categorical, continuous, or discontinuous. We include temporal and geographic data though these data types include special considerations in terms of comparison and mapping.
+By and large, the data (or rather, datasets) we create or find in the wild are either tabular (think spreadsheet) or graph data (think tree hierarchy or network). However complicated or simple, datasets consist of values that correspond to predetermined variables. These variables, in turn, can describe either categorical, continuous, or discontinuous. We include temporal and geographic data though these data types include special considerations in terms of comparison and mapping.
 
 ## What's in a data file?
 

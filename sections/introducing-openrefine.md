@@ -12,7 +12,7 @@ If you haven't yet, be sure to download and install OpenRefine according to [the
 
 ## Importing Data
 
-Like git, OpenRefine is not structured around discrete files that you open and save. Data is imported into a project without affecting the original file. Changes made to that data are bundled together into another file. Rather than saving over or saving multiple copies of data (i.e., `datafile_final-reallyfinal-FINAL.xls`, projects allow users to export derivative files with fine-grained control over how those derivatives should be formed.
+Like git, OpenRefine is not structured around discrete files that you open and save. Data is imported into a project without affecting the original file. Changes made to that data are bundled together into another file. Rather than saving over or saving multiple copies of data (i.e., `datafile_final-reallyfinal-FINAL.xls`) projects allow users to export derivative files with fine-grained control over how those derivatives should be formed.
 
 1) From the **Create Project** option, select **Choose Files**
 
