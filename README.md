@@ -7,10 +7,11 @@ By way of introduction to working with data, we are going to focus on a) concept
 In this session, we will:
 
 - install and become familiar with some of OpenRefine's features
-- import data
-- remove blank rows and de-duplicate
+- import and export derivative datasets
+- sort, filter, and facet data
+- fix errors and inconsistencies at scale
 - split columns with multiple values
-- export subsets in different formats
+- introduce regular expressions
 
 [Get Started >>>](sections/working-with-data.md)
 
