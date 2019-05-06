@@ -27,7 +27,7 @@ In this session, we will:
 
 [Exploring OpenRefine](sections/exploring-openrefine.md)
 
-[[Transforming Columns](sections/transforming-columns.md)
+[Transforming Columns](sections/transforming-columns.md)
 
 [Tidy vs Messy Data Part II](sections/tidy-vs-messy-ii.md)
 

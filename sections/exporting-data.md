@@ -1,6 +1,6 @@
 [<<< Previous](deduplicating.md) | [Next >>>](summary.md)
 
-Exporting data
+# Exporting data
 
 As we mentioned earlier, rather than opening and saving individual files--an OpenRefine project (mostly) never changes the underlying data. Instead of saving over an existing version of a file, it "bundles" changes together, somewhat like git and GitHub. Rather than saving a file, we can export derivatives of the data according to whatever we need it to look like for a particular use.
 
