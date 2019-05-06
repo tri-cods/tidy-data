@@ -15,7 +15,7 @@ In this session, we will:
 
 [Get Started >>>](sections/working-with-data.md)
 
-[Glossary >>>](https://github.com/tri-cods/glossary/blob/master/sections/tidy-data.md)
+[Glossary >>>](https://github.com/tri-cods/glossary/blob/master/sections/tidy-data.md) 
 
 -----
 
