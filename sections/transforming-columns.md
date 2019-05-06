@@ -21,7 +21,7 @@ Now let's rename the rest of the new columns by selecting **Edit column** -> **R
 
 This is a beginning, but you might have noticed that not all the cells with wages under **Occupation of females compensation** included `$` dollar signs. What if we could make sure to select all Arabic numerals, not just for cells that happened to include `$` dollar signs? 
 
-### Extra Credit
+### Challenge
 
 From how many residences on Lombard St. was data collected? Or from any other street? Let's explore one path to answering such a question that makes use of OpenRefine's more advanced features.
 
@@ -54,3 +54,4 @@ In our new column **Street name**, select **Facet** -> **Text facet**. Next sele
 So how many residences surveyed were on Lombard Street? Clearly, this is not perfect. What step might we take to better cluster addresses based on the street?
 
 [<<< Previous](exploring-openrefine.md) | [Next >>>](tidy-vs-messy-ii.md)
+

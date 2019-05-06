@@ -15,15 +15,32 @@ In this session, we will:
 
 [Get Started >>>](sections/working-with-data.md)
 
-[Glossary >>>](https://github.com/tri-cods/glossary) 
+[Glossary >>>](https://github.com/tri-cods/glossary/blob/master/sections/tidy-data.md)
 
------ 
+-----
+
+[Working with Data](sections/working-with-data.md)
+
+[Tidy vs Messy Data](sections/tidy-vs-messy.md)
+
+[Introducing OpenRefine](sections/introducing-openrefine.md)
+
+[Exploring OpenRefine](sections/exploring-openrefine.md)
+
+[[Transforming Columns](sections/transforming-columns.md)
+
+[Tidy vs Messy Data Part II](sections/tidy-vs-messy-ii.md)
+
+[Deduplicating Rows](sections/deduplicating.md)
+
+[Exporting Data](sections/exporting-data.md)
 
 ## Resources
 
-Videos
-Tutorials
-Tidy Data
+[OpenRefine Introductory Video Tutorials](http://openrefine.org/)
+[Programming Historian's Cleaning Data with OpenRefine](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine)
+[Tidy Data](https://www.jstatsoft.org/article/view/v059i10/)
+[Glossary](https://github.com/tri-cods/glossary/blob/master/sections/tidy-data.md)
 
 -----
 
