@@ -38,8 +38,11 @@ In this session, we will:
 ## Resources
 
 [OpenRefine Introductory Video Tutorials](http://openrefine.org/)
+
 [Programming Historian's Cleaning Data with OpenRefine](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine)
+
 [Tidy Data](https://www.jstatsoft.org/article/view/v059i10/)
+
 [Glossary](https://github.com/tri-cods/glossary/blob/master/sections/tidy-data.md)
 
 -----

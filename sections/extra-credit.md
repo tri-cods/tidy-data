@@ -23,14 +23,14 @@ We'll use Mapquest's service in this case. The URL for this service is `http://w
 
 Note that you will need to [register for your own key](https://developer.mapquest.com/plan_purchase/steps/business_edition/business_edition_free/register) in order use their Mapquest's servers.
 
-The OpenRefine command we can use is to return the URL follows the pattern `"[base URL]".replace(ADDRESS, value)` -- in other words take the base URL and replace some part of it with the current address.
+The OpenRefine command we can use to return the URL follows the pattern `"[base URL]".replace(ADDRESS, value)` -- in other words take the base URL and replace some part of it with the current address.
 
-Instead of simply replacing the unvarnished current address value, we'll get better results if we replace the spaces with plus signs -- `value.replace(' ','+')`.
+Instead of simply replacing the unedited current address value, we'll get better results if we replace the spaces with plus signs -- `value.replace(' ','+')`.
 
-If we add a couple other parameters to improve accuracy like a bounding box for the Philadelphia area, we end up with following (awful, unwieldy) string.
+We can add a couple more parameters to improve accuracy like a bounding box for the Philadelphia area, we end up with following (awful, unwieldy) string.
 
 ```
-"http://www.mapquestapi.com/geocoding/v1/address?key=[API KEY]&boundingBox=39.82567212768828,-75.30116272998089,40.10143310299512,-74.97319157742591&thumbMaps=false&location=ADDRESS+philadelphia+pa".replace('ADDRESS',value.replace(' ','+'))
+"http://www.mapquestapi.com/geocoding/v1/address?key=[API KEY]&boundingBox=39.83,-75.32,40.12,-74.98&thumbMaps=false&location=ADDRESS+philadelphia+pa".replace('ADDRESS',value.replace(' ','+'))
 ```
 
 Note that you will need to replace the `[API KEY]` with your API key.
@@ -39,12 +39,12 @@ Note that you will need to replace the `[API KEY]` with your API key.
 
 Finally, you'll have noticed that the service returns much more than simply the coordinates. How to unpack this?
 
-The result is in JSON, which mean we can parse this as a data object, navigating down the result like a tree. To select the first result, for example, we'd select `parseJson(value).results[0].locations[0]`.
+The result is in JSON, which mean we can parse this as a data object, navigating down the result like a tree. To select the first result, for example, we'd select `parseJson(value).results`. To select the first result `parseJson(value).results[0]`. And finally to select the first location within the first result: `parseJson(value).results[0].locations[0]`. Square bracket notation indicates the index or position within a list. The first position is commonly indicated by a 0 in most programming languages.
 
-To return the latitudinal coordinate and the longitudinal coordinate separated by a comma, we'd use the fancier command:
+Putting it all together -- to return the longitudinal and the latitudinal coordinates separated by a comma, we'll can use the command:
 
 ```
-parseJson(value).results[0].locations[0].latLng.lng + ',' + parseJson(value).results[0].locations[0].latLng.lat
+parseJson(value).results[0].locations[0].latLng.lat + ',' + parseJson(value).results[0].locations[0].latLng.lng
 ```
 
 ## Exporting GeoJSON
@@ -71,18 +71,19 @@ And we'll want to replace the **Row Template** with the following. Note how the 
       "type": "Feature",
       "geometry": {
           "type": "Point",
-          "coordinates": [{{jsonize(cells["GeoJson"].value)}}]
-      }
+          "coordinates": [{{ cells["Coordinates"].value }}]
+      },
 
       "properties": {
       "Residence" : {{jsonize(cells["Residence"].value)}},
-      "Name" : {{jsonize(cells["Name"].value)}},
+      "Name" : {{jsonize(cells["Name"].value)}}
       }
     }
 ```
 
 ## Check your work
 
-To test out our data, we can open the file in [the geojson web application geojson.io](http://geojson.io). The open file option is in the top left corner.
+To test out our data, we can open the file in [a geojson web application like geojson.io](http://geojson.io). The open file option is in the top left corner. What should the output look like in the end? Here is [an example of the output](https://gist.github.com/fad82b2ae8d6ccd715871d1f97e6097e
+). 
 
 What do you notice? What happens if you edit the data that appears in the right sidebar? Are there any outliers? With a properly formatted Geojson dataset, we can now take advantage of any number of mapping platforms.

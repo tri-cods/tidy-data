@@ -18,7 +18,7 @@ Data always comprises a slippery set of concepts, processes, technologies, and p
 
 By and large, the data (or rather, datasets) we create or find in the wild are either tabular (think spreadsheet) or graph data (think tree hierarchy or network). However complicated or simple, datasets consist of *values* that belong to predetermined *variables*. These variables, in turn, can describe either *categorical*, *continuous*, or *discontinuous* data. We include temporal and geographic data though these data types include special considerations in terms of comparison and mapping.
 
-To point out the obvious: Data and datasets, in this context, are not only for quantitative research or even for research with highly structured output. Citations and library catalogs, archival finding aids and digital collections of any media, from video to journal articles -- these are all examples of data created and/or reused for research across disciplines.
+Data and datasets, in this context, are not only for quantitative research or even for research with highly structured output. Citations and library catalogs, archival finding aids and digital collections of any media, from video to journal articles -- these are all examples of data created and/or reused for research across disciplines.
 
 What in your own research relies on grouping objects of study into meaningful categories? What might include quantitative data, whether discontinuous or continuous?
 
@@ -32,6 +32,6 @@ The annoying retort would be *what is not a data file?* If we are not worried ab
 
 While some of us may only ever open and read spreadsheets, we interact with graph data constantly, whether using the library catalog or searching Facebook or using web-based maps. Websites themselves are directed graph data represented by the browse.
 
-Why pay attention to data files? Clearly, we can save ourselves and others headache and heartbreak by being mindful with data files, by keeping folders organized, naming files sanely, having consistent, logical column headers. Beyond that, granting organizations and scholarly journals across disciplines are increasingly interested in underlying datasets. Plus you might want to visit [the European Spreadsheet Risks Interest Group](http://www.eusprig.org/) (yes, that's a thing) for a curious, sometimes comic collection of messy- data horror stories about messy data.
+Why pay attention to data files? Clearly, we can save ourselves and others headache and heartbreak by being mindful with data files, by keeping folders organized, naming files sanely, having consistent, logical column headers. Beyond that, granting organizations and scholarly journals across disciplines are increasingly interested in underlying datasets. Plus you might want to visit [the European Spreadsheet Risks Interest Group](http://www.eusprig.org/) (yes, that's a thing) for a curious, sometimes comic collection of messy data horror stories.
 
 [Next >>>](tidy-vs-messy.md)

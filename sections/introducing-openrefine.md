@@ -4,7 +4,7 @@
 
 [OpenRefine is cross-platform, open-source software](http://openrefine.org/) that allows users to clean and transform messy data. Originally supported by Google, it is now maintained by a large user community. OpenRefine is by no means the only or best way to work with data; however, it strikes an unusual balance between working in proprietary tools for a broad audience (like Microsoft Excel or GoogleSheets) on the one hand, and on the other, straight programming for data science (R Studio, Python Notebooks).
 
-It allows users to bring in messy data easily without requiring preliminary transformation. It allows for granular auditing of any changes. It combines (relatively) easy to use suite of features with the ability to write custom scripts when needed. It also allows users to parse with lots and lots of data -- Microsoft Excel, for example, has a maximum of 1,048,576 rows by 16,384 columns.
+It allows users to bring in messy data easily without requiring preliminary transformation. It allows for granular auditing of any changes. It combines (relatively) easy to use suite of features with the ability to write custom scripts when needed. It also allows users to parse with lots and lots of data. Microsoft Excel, for example, has a maximum of 1,048,576 rows by 16,384 columns.
 
 A couple things to note about OpenRefine: The software was originally written for the web so it runs in the browser rather than its own window. Rather than opening and saving files, it imports data into a "project" from which we can export versions of data suited to our needs.
 
