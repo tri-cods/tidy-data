@@ -112,7 +112,7 @@ The "tidy" way to address this is by considering this in terms of "observations"
 
 ### Single observational unit should appear in a single table
 
-Though we won't delve into this, for completeness, we'll mention that another common issue is observational units across multiple tables. Simple put, it's often that case that all the "observations" or rows may not all be in the same table. Imagine census data in which different counties are stored in separate files or the details of a historical trading voyage stored in different ledgers, possibly in different archives. The tidy way to deal with this before analysis, would be to combine them into a single table or file.
+Though we won't delve into this, for completeness, we'll mention that another common issue is observational units across multiple tables. Simply put, it's often the case that all the "observations" or rows may not all be in the same table. Imagine census data in which different counties are stored in separate files or the details of a historical trading voyage stored in different ledgers, possibly in different archives. The tidy way to deal with this before analysis, would be to combine them into a single table or file.
 
 ## Challenge
 
