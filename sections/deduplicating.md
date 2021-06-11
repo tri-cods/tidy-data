@@ -33,9 +33,9 @@ Once we've deduplicated, let's not lose track of our unique rows or "observation
 
 Under the **Name** column, select **Edit column** -> **Add column based on this column...**
 
-To access the index of the current row, we can use the `row` variable and get the `index` value, i.e., `row.index()`.
+To access the index of the current row, we can use the `row` variable and get the `index` value, i.e., `row.index`.
 
-Optionally, if you want to ensure each identifier is a four digit number, we can apply the fancier formula: `“0000”[0,4-row.index.length()] + row.index()`
+Optionally, if you want to ensure each identifier is a four digit number, we can apply the fancier formula: `"0000"[0,4-row.index.length()] + row.index`
 
 Now select **Edit column** and move this new column to the beginning of the table.
 
