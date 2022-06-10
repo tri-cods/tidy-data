@@ -30,7 +30,7 @@ The annoying retort would be *what is not a data file?* If we are not worried ab
 
 **Graph data** is data that can be represented by nodes and edges, roughly speaking. Think [popularized images of networks spidering out](https://en.wikipedia.org/wiki/Opte_Project#/media/File:Internet_map_1024.jpg). A **directed graph** is data that can be represented by a tree or a hierarchy. Most commonly seen in XML or JSON formats (though these formats can also represent tabular data).
 
-While some of us may only ever open and read spreadsheets, we interact with graph data constantly, whether using the library catalog or searching Facebook or using web-based maps. Websites themselves are directed graph data represented by the browse.
+While some of us may only ever open and read spreadsheets, we interact with graph data constantly, whether using the library catalog or searching Facebook or using web-based maps. Websites themselves are directed graph data represented by the browser.
 
 Why pay attention to data files? Clearly, we can save ourselves and others headache and heartbreak by being mindful with data files, by keeping folders organized, naming files sanely, having consistent, logical column headers. Beyond that, granting organizations and scholarly journals across disciplines are increasingly interested in underlying datasets. Plus you might want to visit [the European Spreadsheet Risks Interest Group](http://www.eusprig.org/) (yes, that's a thing) for a curious, sometimes comic collection of messy data horror stories.
 
