@@ -1,4 +1,4 @@
-[<<< Previous](transforming-columns.md) | [Next >>>](deduplicating.md)
+[<<< Previous](exploring-openrefine.md) | [Next >>>](transforming-columns.md)
 
 # Tidy vs. Messy Part II
 
@@ -123,4 +123,4 @@ Looking at our 1847 census dataset, can you find an example of the first four  i
 - Variables should be in columns not rows.
 - Different observational units should appear in different tables.
 
-[<<< Previous](transforming-columns.md) | [Next >>>](deduplicating.md)
+[<<< Previous](exploring-openrefine.md) | [Next >>>](transforming-columns.md)

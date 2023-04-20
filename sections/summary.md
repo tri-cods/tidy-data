@@ -10,7 +10,6 @@ In this session, we learned how:
 - how to **import** and **export** datasets
 - how to **trim whitespace** and **cluster** values for consistency
 - how to **transform columns** 
-- how to **deduplicate** rows
 - how to think about structured data generally using **tidy data** inspired concepts
 
 [<<< Previous](exporting-data.md)

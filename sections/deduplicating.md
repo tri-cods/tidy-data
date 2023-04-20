@@ -1,4 +1,3 @@
-[<<< Previous](tidy-vs-messy-ii.md) | [Next >>>](exporting-data.md)
 
 # Deduplicating rows
 
@@ -39,4 +38,3 @@ Optionally, if you want to ensure each identifier is a four digit number, we can
 
 Now select **Edit column** and move this new column to the beginning of the table.
 
-[<<< Previous](tidy-vs-messy-ii.md) | [Next >>>](exporting-data.md)

@@ -1,4 +1,4 @@
-[Next >>>](introducing-openrefine.md)
+[Next >>>](tidy-vs-messy.md)
 
 # Working with Data
 

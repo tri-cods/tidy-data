@@ -27,13 +27,13 @@ In this session, we will:
 
 [Exploring OpenRefine](sections/exploring-openrefine.md)
 
-[Transforming Columns](sections/transforming-columns.md)
-
 [Tidy vs Messy Data Part II](sections/tidy-vs-messy-ii.md)
 
-[Deduplicating Rows](sections/deduplicating.md)
+[Transforming Columns](sections/transforming-columns.md)
 
 [Exporting Data](sections/exporting-data.md)
+
+[Deduplicating Rows](sections/deduplicating.md) (Won't be covered in this session, but feel free to explore on your own)
 
 ## Resources
 

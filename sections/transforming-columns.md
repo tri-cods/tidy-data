@@ -1,4 +1,4 @@
-[<<< Previous](exploring-openrefine.md) | [Next >>>](tidy-vs-messy-ii.md)
+[<<< Previous](tidy-vs-messy-ii.md) | [Next >>>](exporting-data.md)
 # Transforming columns
 
 ### Splitting columns
@@ -37,7 +37,7 @@ Start by entering `value`. Next, let's try to find a particular value -- say the
 
 How about any number? We can use a commonly used shorthand code called **regular expressions** to match whole classes of characters, in this case Arabic numerals. 
 
-First we need to indicate we are going to use a regular expression instead of just regular text. We do this with `/` slashes instead of quotation marks.
+First we need to indicate we are going to use a regular expression instead of normal text. We do this with `/` slashes instead of quotation marks.
 
 The shorthand for one Arabic numeral is `\d`. The shorthand for any number of Arabic numerals together is `\d+`. 
 
@@ -53,5 +53,5 @@ In our new column **Street name**, select **Facet** -> **Text facet**. Next sele
 
 So how many residences surveyed were on Lombard Street? Clearly, this is not perfect. What step might we take to better cluster addresses based on the street?
 
-[<<< Previous](exploring-openrefine.md) | [Next >>>](tidy-vs-messy-ii.md)
+[<<< Previous](tidy-vs-messy-ii.md) | [Next >>>](exporting-data.md)
 
