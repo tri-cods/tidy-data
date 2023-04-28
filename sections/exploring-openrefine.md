@@ -18,11 +18,11 @@ In how many residences are there recorded female washers? How many males are emp
 
 ### Faceting
 
-For the column labeled **Rent of house**, let's filter the census data based on how much rent tenants were paying.
+For the column labeled **Rent of house room**, let's filter the census data based on how much rent tenants were paying.
 
 First, we'll want to convert the column to numeric data by selecting **Edit Cells** -> **Common Transforms** -> **To number**.
 
-Note that not *all* rows were converted, why not?
+Note that not *all* rows were converted. Why not?
 
 From the same column, select **Facet** -> **Numeric facet**.
 
@@ -46,9 +46,7 @@ Whether in the 1847 handwritten entries themselves or in the process of transcri
 
 Here we are going to explore one of several ways we can use OpenRefine to guess what values are most like each other in order to make values more consistent.
 
-For **Residence**, select **Edit Cells** -> **Common Transforms** -> **Trim leading and trailing whitespace**.
-
-Next select **Edit Cells** -> **Common Transforms** -> **Cluster and edit**.
+For **Residence**, select **Edit Cells** -> **Cluster and edit...**.
 
 OpenRefine suggests changes and by checking the checkbox beside those suggestions, we can replace all the resulting cells with what is in the textbox to the right.
 
