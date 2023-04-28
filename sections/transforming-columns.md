@@ -9,7 +9,7 @@ Under **Occupation of females compensation**, select **Edit column** -> **Split 
 
 Most commonly, multiple values are separated by a character like a comma. In this case, we see the `$` character.
 
-Replace the comma with a `$` in the **Separator** field. Note we can limit the maximum number of columns -- this could be important in case very vary messy data!
+Replace the comma with a `$` in the **Separator** field. Note we can limit the maximum number of columns -- this could be important in case very very messy data!
 
 Additionally, we'll want to preserve the current column -- so uncheck the **Remove this column** option. Select **OK**.
 
