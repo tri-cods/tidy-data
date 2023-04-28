@@ -43,11 +43,11 @@ In this excerpted table of income distribution between religious denominations f
 
 ### 2. One column should describe one variable
 
-|      | country | year | m04  | m514 | m014 | m1524 | m2534 | m3544 | m4554 | m5564 | m65  | mu   | f04  | f514 | f014 |
-| ---- | ------- | ---- | ---- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ---- | ---- | ---- | ---- | ---- |
-| 1    | AD      | 1989 | NA   | NA   | NA   | NA    | NA    | NA    | NA    | NA    | NA   | NA   | NA   | NA   | NA   |
+| country | year | m014 | m1524 | m2534 | m3544 | m4554 | m5564 | m65  | mu | f014 | f1524 | f2534 | f3544 | f4554 | f5564 | f65 | fu |
+|---------|------|------|-------|-------|-------|-------|-------|------|----|------|-------|-------|-------|-------|-------|-----|----|
+| US      | 1995 | 19   | 355   | 876   | 1417  | 1121  | 742   | 1099 | NA | 26   | 280   | 579   | 499   | 285   | 202   | 591 | NA |
 
-Variables include sex (m, f) and age (0–14, 15–25, 25–34, 35–44, 45–54, 55–64, unknown).
+Variables include sex (m, f) and age (0–14, 15–25, 25–34, 35–44, 45–54, 55–64, over 65, unknown).
 
 In this excerpt of tuberculosis dataset from the World Health Organization, where can you see multiple variable crammed into one column?
 
