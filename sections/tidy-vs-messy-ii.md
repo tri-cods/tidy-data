@@ -24,7 +24,7 @@ Guidelines like these can be incredibly helpful for our sanity as we try to deco
 
 The following examples derive from widely shared examples initially used by Hadley Wickham for teaching purposes. For a fuller treatment, see [Hadley Wiksham's teaching slide deck](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) as well as the  [video version of these concepts](https://vimeo.com/33727555).
 
-### Column headers should be variable names
+### 1. Column headers should be variable names
 
 
 |  | religion | <$10k | $10-20k | $20-30k | $30-40k |
@@ -41,7 +41,7 @@ In this excerpted table of income distribution between religious denominations f
 | ---- | -------- | ------ | ----- |
 | 1    | agnostic | <$10k | 27   |
 
-### One column should describe one variable
+### 2. One column should describe one variable
 
 |      | country | year | m04  | m514 | m014 | m1524 | m2534 | m3544 | m4554 | m5564 | m65  | mu   | f04  | f514 | f014 |
 | ---- | ------- | ---- | ---- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ---- | ---- | ---- | ---- | ---- |
@@ -51,7 +51,7 @@ Variables include sex (m, f) and age (0–14, 15–25, 25–34, 35–44, 45–54
 
 In this excerpt of tuberculosis dataset from the World Health Organization, where can you see multiple variable crammed into one column?
 
-### Variables should be stored in rows not columns
+### 3. Variables should be stored in rows not columns
 
 | id          | year | month | element | d1   | d2   | d3   | d4   | d5   | d6   | d7   | d8   | d9   | d10  | d11  | d12  | d13  | d14  | d15  | d16  | d17  | d18  | d19  | d20  | d21  | d22  | d23  | d24  | d25  | d26  | d27  | d28  | d29  | d30  | d31  |
 | ----------- | ---- | ----- | ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -61,7 +61,7 @@ In this excerpt of tuberculosis dataset from the World Health Organization, wher
 
 In this excerpt of weather data from Cuernavaca, Mexico, what variable seems to appear in both a column and a row?
 
-### Different observational units should appear in different tables
+### 4. Different observational units should appear in different tables
 
 | year                                                     | artist | track | time | date.entered | wk1  | wk2  | wk3  |
 | -------------------------------------------------------- | ------ | ----- | ---- | ----- | ------- | ---- | ---- |
@@ -74,6 +74,28 @@ In this excerpt of weather data from Cuernavaca, Mexico, what variable seems to 
 | 2000 | Adams, Yolanda | Open My Heart | 5:30 | 2000-08-26| 76| 76| 74 |
 
 Billboard Chart data from 2000 -- notice how the date is spread across different columns; however, if each row is a song is there any better way to do this?
+
+An intermediate step is to make a new row for each song each week, like so.
+
+| year | artist       | track                  | time | date       | week | rank |
+|------|--------------|------------------------|------|------------|------|------|
+| 2000 | 2Ge+her      | The Hardest Part Of... | 3:15 | 2000-09-02 | 1    | 91   |
+| 2000 | 2Ge+her      | The Hardest Part Of... | 3:15 | 2000-09-09 | 2    | 87   |
+| 2000 | 2Ge+her      | The Hardest Part Of... | 3:15 | 2000-09-16 | 3    | 92   |
+| 2000 | 2 Pac        | Baby Don't Cry         | 4:22 | 2000-02-26 | 1    | 87   |
+| 2000 | 2 Pac        | Baby Don't Cry         | 4:22 | 2000-03-04 | 2    | 82   |
+| 2000 | 2 Pac        | Baby Don't Cry         | 4:22 | 2000-03-11 | 3    | 72   |
+| 2000 | 2 Pac        | Baby Don't Cry         | 4:22 | 2000-03-18 | 4    | 77   |
+| 2000 | 2 Pac        | Baby Don't Cry         | 4:22 | 2000-03-25 | 5    | 87   |
+| 2000 | 2 Pac        | Baby Don't Cry         | 4:22 | 2000-04-01 | 6    | 94   |
+| 2000 | 2 Pac        | Baby Don't Cry         | 4:22 | 2000-04-08 | 7    | 99   |
+| 2000 | 3 Doors Down | Kryptonite             | 3:53 | 2000-04-08 | 1    | 81   |
+| 2000 | 3 Doors Down | Kryptonite             | 3:53 | 2000-04-15 | 2    | 70   |
+| 2000 | 3 Doors Down | Kryptonite             | 3:53 | 2000-04-22 | 3    | 68   |
+| 2000 | 3 Doors Down | Kryptonite             | 3:53 | 2000-04-29 | 4    | 67   |
+| 2000 | 3 Doors Down | Kryptonite             | 3:53 | 2000-05-06 | 5    | 66   |
+
+There are still issues, though. For example, notice how many times we repeat the basic metadata of each song (year, artist, time).
 
 The "tidy" way to address this is by considering this in terms of "observations" and differing observational units. In this case, "observational unit" mostly means the row. If we split this into two tables, one whose unit is the song and one whose unit is a song's rank from week to week, here's what it might look like.
 
@@ -110,7 +132,7 @@ The "tidy" way to address this is by considering this in terms of "observations"
 | 2 | 2000-09-16 | 92 |
 
 
-### Single observational unit should appear in a single table
+### 5. Single observational unit should appear in a single table
 
 Though we won't delve into this, for completeness, we'll mention that another common issue is observational units across multiple tables. Simply put, it's often the case that all the "observations" or rows may not all be in the same table. Imagine census data in which different counties are stored in separate files or the details of a historical trading voyage stored in different ledgers, possibly in different archives. The tidy way to deal with this before analysis, would be to combine them into a single table or file.
 
