@@ -51,13 +51,14 @@ Variables include sex (m, f) and age (0–14, 15–25, 25–34, 35–44, 45–54
 
 In this excerpt of tuberculosis dataset from the World Health Organization, where can you see multiple variable crammed into one column?
 
-### 3. Variables should be stored in rows not columns
+### 3. Variables should be stored in columns, not rows
 
 | id          | year | month | element | d1   | d2   | d3   | d4   | d5   | d6   | d7   | d8   | d9   | d10  | d11  | d12  | d13  | d14  | d15  | d16  | d17  | d18  | d19  | d20  | d21  | d22  | d23  | d24  | d25  | d26  | d27  | d28  | d29  | d30  | d31  |
 | ----------- | ---- | ----- | ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | MX000017004   | 2010    | 1   | TMAX  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | 278 | NA |
 | MX000017004   | 2010    | 1   | TMIN  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | 145 | NA |
 | MX000017004   | 2010    | 2   | TMAX  | NA  | 273 | 241 | NA  | NA  | NA  | NA  | NA  | NA  | NA  | 297 | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | 299 | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA |
+| MX000017004   | 2010    | 2   | TMIN  | NA  | 144 | 144 | NA  | NA  | NA  | NA  | NA  | NA  | NA  | 134 | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  | 107 | NA  | NA  | NA  | NA  | NA  | NA  | NA  | NA  |
 
 In this excerpt of weather data from Cuernavaca, Mexico, what variable seems to appear in both a column and a row?
 
